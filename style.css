@@ -1,9 +1,21 @@
+body
+{
+    background-color: #1e0a2f;
+}
+
 .flex-container1 div
 {
     background: #8657eb;
     border: 6px solid #1e0a2f;
     height: 302.5px;
     flex-direction: column;
+}
+
+img
+{
+    width: 325px;
+    height: 302.5px;
+    padding-left: 0%;
 }
 
 .flex-container2 div
