@@ -24,6 +24,37 @@ img
     top: 80px;
 }
 
+#flex-sub
+{
+    display: flex;
+    width: 844px;
+    height: 170px;
+    margin-left: 20%;
+    background-color: #3882F6;
+    border-radius: 25px;
+}
+
+button
+{
+    border-color: white;
+    background-color: #3882F6;
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    color: white;
+    margin-left: auto;
+    margin-right: 80px;
+}
+
+#flex-container2-items
+{
+    width: 250px;
+    height: 250px;
+    margin-bottom: 50%;
+    border: 4px solid #3882F6;
+    background-color: white;
+}
+
 .flex-container2 div
 {
     background-color: white;
@@ -59,6 +90,7 @@ p
     justify-content: center;
     align-items: center;
 }
+
 
 .flex-container3
 {
