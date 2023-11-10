@@ -30,14 +30,52 @@ img
     top: 125px;
 }
 
+img.second
+{
+    height: 25%;
+    width: 25%;
+    margin-left: 70%;
+    position: absolute;
+    top: 125px;
+}
+
 .first_bird
 {
     width: 75px;
     height: 75px;
     top: -450px;
-    right: 60px;
+    right: 20px;
     border-radius: 50%;
     position: relative;
+}
+
+p.fat_bird
+{
+    font-size: smaller;
+    padding-left: 155px;
+    text-align: center;
+}
+
+p.second_brown_bird
+{
+    font-size: smaller;
+    padding-left: 375px;
+    padding-top: 0px;
+    text-align: center;
+}
+
+p.pecker_bird
+{
+    font-size: smaller;
+    padding-left: 225px;
+    text-align: center;
+}
+
+p.chick_bird
+{
+    font-size: smaller;
+    padding-left: 750px;
+    text-align: center;
 }
 
 .second_bird
@@ -88,6 +126,12 @@ img
     position: absolute;
     right: 710px;
     top: 450px;
+    text-align: center;
+}
+
+.brown_bird_text
+{
+    padding-right: 1600px;
 }
 
 .b
