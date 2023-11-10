@@ -29,6 +29,20 @@ img
     top: 80px;
 }
 
+.b
+{
+    font-size: 24px;
+    color: white;
+    
+}
+
+.sp
+{
+    color:#1F2937;
+    font-weight: 200;
+    font-size: 16px;
+}
+
 #flex-sub
 {
     display: flex;
@@ -37,6 +51,8 @@ img
     margin-left: 20%;
     background-color: #3882F6;
     border-radius: 25px;
+    padding-left: 50px;
+    font-size: 18px;
 }
 
 button
@@ -51,13 +67,23 @@ button
     margin-right: 80px;
 }
 
-#flex-container2-items
+#flex-small-container
 {
-    width: 250px;
-    height: 250px;
-    margin-bottom: 50%;
-    border: 4px solid #3882F6;
-    background-color: white;
+    height: 140px;
+    padding: 16px;
+    background: plum;
+    border: 4px solid indigo;
+    display: flex;
+    flex-direction: column;
+}
+
+.item_for_container
+{
+    width: 60px;
+    height: 60px;
+    border: 4px solid darkslategray;
+    background: skyblue;
+    flex-direction: column;
 }
 
 .flex-container2 div
