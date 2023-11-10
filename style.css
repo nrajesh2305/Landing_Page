@@ -26,6 +26,7 @@ img
     height: 25%;
     width: 25%;
     margin-left: 70%;
+    display:flex;
     position: absolute;
     top: 125px;
 }
@@ -35,7 +36,7 @@ img.second
     height: 25%;
     width: 25%;
     margin-left: 70%;
-    position: absolute;
+    display: flex;
     top: 125px;
 }
 
@@ -46,87 +47,20 @@ img.second
     top: -450px;
     right: 20px;
     border-radius: 50%;
+    display: flex;
     position: relative;
 }
 
-p.fat_bird
+.container
 {
-    font-size: smaller;
-    padding-left: 155px;
-    text-align: center;
-}
-
-p.second_brown_bird
-{
-    font-size: smaller;
-    padding-left: 375px;
-    padding-top: 0px;
-    text-align: center;
-}
-
-p.pecker_bird
-{
-    font-size: smaller;
-    padding-left: 225px;
-    text-align: center;
-}
-
-p.chick_bird
-{
-    font-size: smaller;
-    padding-left: 750px;
-    text-align: center;
-}
-
-.second_bird
-{
-    width: 15%;
-    height: 170px;
     display: flex;
-    right: 10px;
-    top: 450px;
+    justify-content: center;
+    gap: 150px;
 }
 
-.third_bird
+.info
 {
-    width: 15%;
-    height: 170px;
-    display: flex;
-    right: 1010px;
-    top: 450px;
-}
-
-.fourth_bird
-{
-    width: 15%;
-    height: 170px;
-    display: flex;
-    right: 720px;
-    top: 450px;
-}
-
-.fifth_bird
-{
-    width: 15%;
-    height: 170px;
-    display: flex;
-    right: 360px;
-    top: 450px;
-}
-
-.sixth_bird
-{
-    width: 15%;
-    height: 170px;
-    display: flex;
-    right: 710px;
-    top: 450px;
-    text-align: center;
-}
-
-.brown_bird_text
-{
-    padding-right: 1600px;
+    max-width: 200px;
 }
 
 .b
@@ -166,7 +100,7 @@ button
     margin-right: 80px;
 }
 
-#flex-small-container
+/* #flex-small-container
 {
     height: 250px;
     padding: 16px;
@@ -175,15 +109,7 @@ button
     display: flex;
     gap: 250px;
     justify-content: space-evenly;
-}
-
-.item_for_container
-{
-    width: 150px;
-    height: 150px;
-    border: 4px solid white;
-    background: white;
-}
+} */
 
 .flex-container2 div
 {
