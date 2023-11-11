@@ -113,6 +113,19 @@ button
     margin-right: 80px;
 }
 
+.button2
+{
+    border-color: white;
+    background-color: #3882F6;
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    color: white;
+    margin-left: auto;
+    margin-right: 500px;
+    margin-top: 10px;
+}
+
 .pink_icon
 {
     border-radius: 50%;
