@@ -66,7 +66,6 @@ img.second
 .info
 {
     max-width: 400px;
-    /* margin-top: -20px; */
     margin-left: 0%;
 }
 
@@ -110,7 +109,9 @@ button
 .pink_icon
 {
     border-radius: 50%;
-    
+    width: 80px;
+    height: 80px;
+    right: 450px;
 }
 
 #flex-small-container
